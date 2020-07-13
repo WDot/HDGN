@@ -22,3 +22,5 @@ To evaluate the pretrained model, run the following command:
 ```
 python3 main.py --exp_name=pretrained_eval --model=hdgn --num_points=1024 --k=32 --device=cuda:0 --num_theta=5 --num_phi=5 --eval=True --model_path=checkpoints/pretrained/models/model.t7 --test_batch_size=8
 ```
+
+Note: There is some randomness in training and evaluation, you may not get the exact best result every time, but this variation is characterized in the paper.
