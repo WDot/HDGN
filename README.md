@@ -3,6 +3,10 @@ Hard Directional Graph Network
 
 This is a 3D Point Cloud Classification/Segmentation network submitted to ICPR 2020.
 
+It was developed by Miguel Dominguez and Raymond Ptucha with sponsorship from NVIDIA's SimNet project.
+
+The code is based on Yue Wang's DGCNN code, but modified to implement our HDGN algorithm.
+
 All experiments were run on a single 32GB V100.
 
 This code requires the following software:
